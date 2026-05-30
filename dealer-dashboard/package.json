@@ -1,0 +1,10 @@
+{
+  "name": "dealer-dashboard",
+  "private": true,
+  "workspaces": ["app", "worker"],
+  "scripts": {
+    "dev": "cd app && npm run dev",
+    "build": "cd app && npm run build",
+    "deploy:worker": "cd worker && npm run deploy"
+  }
+}
